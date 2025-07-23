@@ -1,0 +1,10 @@
+
+> tea-quality-visualizer@0.1.0 dev
+> vite
+
+
+  VITE v5.4.19  ready in 127 ms
+
+  ➜  Local:   http://localhost:1420/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
