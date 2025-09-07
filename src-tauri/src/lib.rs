@@ -51,9 +51,7 @@ pub use tea_analyzer::{TeaLot, analyze_tea_csv};
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
   tauri::Builder::default()
-    .invoke_handler(tauri::generate_handler![
-      analyze_tea_csv
-    ])
+    .invoke_handler(tauri::generate_handler![analyze_tea_csv])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
 }
